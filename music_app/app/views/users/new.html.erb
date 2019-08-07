@@ -1,0 +1,16 @@
+<form action="<%=users_url%>" method="post">
+
+    <label for="user[email]">Email:
+        <input type="text" name="user[email]" value="<%=@user.email%>">
+    </label>
+
+    <br>
+
+    <label>Password:
+        <input type="password" name="user[password]" value="">
+    </label>
+
+    <br>
+
+    <input type="submit" value="Submit">
+</form>

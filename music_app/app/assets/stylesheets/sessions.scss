@@ -1,0 +1,20 @@
+// Place all the styles related to the sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1{
+    display: flex;
+    color: green;
+    justify-content: center;
+}
+
+div.logout{
+    justify-content: space-around;
+    background-color: pink;
+    display: inline-block;
+}   
+
+form.logout_form {
+    align-content: space-around;
+    justify-content: space-around;
+    flex-direction: row;
+}
